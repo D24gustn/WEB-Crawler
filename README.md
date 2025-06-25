@@ -95,7 +95,7 @@
 ---
 ![image](https://github.com/user-attachments/assets/397c1811-a7de-476d-ab2d-8ab10ea4fc70)
 
-=== Classification Report ===
+```=== Classification Report ===
               precision    recall  f1-score   support
 
           부정       0.82      0.21      0.33      1592
@@ -105,7 +105,7 @@
     accuracy                           0.85     13057
    macro avg       0.84      0.69      0.70     13057
 weighted avg       0.84      0.85      0.82     13057
-
+```
 ---
 
 ## 📄 라이선스 (License)
