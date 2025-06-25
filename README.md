@@ -53,7 +53,7 @@
    python merge_reviews.py --input data/steam_reviews_cache.csv --output data/merged_reviews.csv
 
    # 3) LLM 레이블링
-   python qwer.py --input data/merged_reviews.csv --output data/reviews_labeled.csv
+   python LM Studio.py --input data/merged_reviews.csv --output data/reviews_labeled.csv
 
    # 4) 모델 학습
    python train.py --input data/reviews_labeled.csv --save-dir models/
