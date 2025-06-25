@@ -3,7 +3,7 @@
 
 1️⃣ 리뷰 수집 (크롤링)
 스크립트: build.reviews.py
-설명: Steam AppReviews API + HTML 스크래핑으로 한글 리뷰 수집
+설명: Steam AppReviews API 으로 한글 리뷰 수집
 출력: steam_reviews_cache.csv
 
 2️⃣ CSV 병합 & 중복 제거
@@ -20,7 +20,6 @@
 0 = 부정
 1 = 중립
 2 = 긍정
-자동 라벨링
 출력: reviews_labeled.csv
 
 4️⃣ 모델 학습
