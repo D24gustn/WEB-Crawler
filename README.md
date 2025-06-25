@@ -32,7 +32,7 @@
 
 ## 📋 사용 방법 (How to Use)
 
-1.  가상환경 설정 & 활성화
+1. 가상환경 설정 & 활성화
 
    ```bash
    python -m venv venv
