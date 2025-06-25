@@ -50,16 +50,3 @@ tokenizer.pkl
 
 
 
-
-
-
-
-
-
-도구
-
-
-
-ChatGPT는 실수를 할 수 있습니다
-
-
