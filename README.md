@@ -5,9 +5,11 @@ LSTM 으로 감성(긍정/중립/부정) 분류
 Streamlit 대시보드로 시각화
 
 
+
 리뷰 수집 (크롤링)
 스크립트: build.reviews.py
 설명: Steam AppReviews API + HTML 스크래핑으로 한글 리뷰 약 120,000건 수집 → steam_reviews_cache.csv
+
 
 CSV 병합 & 중복 제거
 스크립트: merge_reviews.py
@@ -15,11 +17,13 @@ CSV 병합 & 중복 제거
 출력: merged_reviews.csv
 설명: 컬럼명 통일 → 중복(review_id 또는 review 본문) 제거
 
+
 LLM 감성 라벨링
 스크립트: LM Studio.py
 입력: merged_reviews.csv
 출력: reviews_labeled.csv
 설명: Google/Gemma-3-12b (LM Studio) API 호출로 0=부정,1=중립,2=긍정 자동 라벨링
+
 
 모델 학습
 스크립트: train.py
@@ -32,6 +36,7 @@ best_lstm.h5 (학습된 LSTM+BiLSTM 모델)
 Tokenizer 학습 → 시퀀스 패딩
 Embedding → BiLSTM → Dropout → Dense(softmax)
 체크포인트 & EarlyStopping 적용
+
 
 Streamlit 대시보드
 스크립트: streamlit.py
