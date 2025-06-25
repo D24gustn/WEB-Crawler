@@ -48,5 +48,6 @@ tokenizer.pkl
 잘못된 라벨 피드백 → 원본 CSV 자동 업데이트 → 모델 재학습 버튼
 
 
+![image](https://github.com/user-attachments/assets/28e3c614-3076-44d0-894b-509e575c539b)
 
 
