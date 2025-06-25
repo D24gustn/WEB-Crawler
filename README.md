@@ -1,6 +1,6 @@
 1️⃣ 리뷰 수집 (크롤링)
 스크립트: build.reviews.py
-설명: Steam AppReviews API + HTML 스크래핑으로 한글 리뷰 약 120,000건 수집
+설명: Steam AppReviews API + HTML 스크래핑으로 한글 리뷰 수집
 출력: steam_reviews_cache.csv
 
 2️⃣ CSV 병합 & 중복 제거
