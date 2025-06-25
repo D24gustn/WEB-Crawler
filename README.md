@@ -32,24 +32,18 @@
 
 ## 📋 사용 방법 (How to Use)
 
-1. 레포지토리 클론 & 이동
-
-   ```bash
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
-   ```
-2. (선택) 가상환경 설정 & 활성화
+1.  가상환경 설정 & 활성화
 
    ```bash
    python -m venv venv
    venv\Scripts\activate    # Windows
    ```
-3. 의존성 설치
+2. 의존성 설치
 
    ```bash
    pip install -r requirements.txt
    ```
-4. 단계별 실행
+3. 단계별 실행
 
    ```bash
    # 1) 리뷰 수집
