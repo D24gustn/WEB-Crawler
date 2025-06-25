@@ -1,18 +1,13 @@
 
 ![image](https://github.com/user-attachments/assets/cec3660d-cf66-4009-b169-cb090f4e153b)
 
-1️⃣ 리뷰 수집 (크롤링)
-스크립트: build.reviews.py
-설명: Steam AppReviews API 으로 한글 리뷰 수집
-출력: steam_reviews_cache.csv
-
-2️⃣ CSV 병합 & 중복 제거
+1️⃣ CSV 병합 & 중복 제거
 스크립트: merge_reviews.py
 입력: 여러 개로 나뉜 *.csv
 설명: 컬럼명 통일 → 중복(review_id 또는 review 본문) 제거
 출력: merged_reviews.csv
 
-3️⃣ LLM 감성 라벨링
+2️⃣ LLM 감성 라벨링
 스크립트: LM Studio.py
 입력: merged_reviews.csv
 설명: Google/Gemma-3-12b (LM Studio) API 호출로
@@ -22,7 +17,7 @@
 2 = 긍정
 출력: reviews_labeled.csv
 
-4️⃣ 모델 학습
+3️⃣ 모델 학습
 스크립트: train.py
 입력: reviews_labeled.csv
 내용:
@@ -33,7 +28,7 @@ LSTM 모델 학습
 tokenizer.pkl (단어↔번호 매핑)
 best_lstm.h5 (학습된 모델)
 
-5️⃣ Streamlit 대시보드
+4️⃣ Streamlit 대시보드
 스크립트: streamlit.py
 입력:
 best_lstm.h5
