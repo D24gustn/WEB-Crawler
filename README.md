@@ -42,7 +42,6 @@
 
    ```bash
    python -m venv venv
-   source venv/bin/activate   # macOS/Linux
    venv\Scripts\activate    # Windows
    ```
 3. 의존성 설치
