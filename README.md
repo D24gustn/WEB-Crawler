@@ -108,6 +108,4 @@ weighted avg       0.84      0.85      0.82     13057
 ```
 ---
 
-## 📄 라이선스 (License)
 
-MIT License
