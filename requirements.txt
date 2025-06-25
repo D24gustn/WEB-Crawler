@@ -1,0 +1,21 @@
+# HTTP & 크롤링
+requests
+beautifulsoup4
+
+# 데이터 처리
+pandas
+numpy
+tqdm
+
+# 머신러닝 & 딥러닝
+scikit-learn
+tensorflow
+keras
+pickle5  # Python 3.8 이하 사용 시 필요
+
+# 시각화
+matplotlib
+wordcloud
+
+# 웹 대시보드
+streamlit
