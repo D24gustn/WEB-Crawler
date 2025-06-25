@@ -25,14 +25,13 @@
 4️⃣ 모델 학습
 스크립트: train.py
 입력: reviews_labeled.csv
-설명:
-텍스트 정제 → train/val 분할
-Keras Tokenizer 학습 → 시퀀스 패딩
-Embedding → BiLSTM → Dropout → Dense(softmax)
-체크포인트 & EarlyStopping 적용
-출력:
-tokenizer.pkl (Keras Tokenizer)
-best_lstm.h5 (학습된 LSTM+BiLSTM 모델)
+내용:
+리뷰 문장에서 불필요한 기호 제거
+단어를 숫자로 변환
+LSTM 모델 학습
+생성 파일:
+tokenizer.pkl (단어↔번호 매핑)
+best_lstm.h5 (학습된 모델)
 
 5️⃣ Streamlit 대시보드
 스크립트: streamlit.py
